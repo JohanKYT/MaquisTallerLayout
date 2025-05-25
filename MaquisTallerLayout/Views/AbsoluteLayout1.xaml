@@ -6,7 +6,7 @@
 
     <AbsoluteLayout>
 
-        <Image Source="pngclipartrealmadridlogorealmadridlogo.png"
+        <Image Source="logo_gta_vi.png"
        AbsoluteLayout.LayoutBounds="0.5,0,1,200"
        AbsoluteLayout.LayoutFlags="WidthProportional,PositionProportional"
        Aspect="AspectFit" />
@@ -14,17 +14,13 @@
 
         <ScrollView AbsoluteLayout.LayoutBounds="0,200,1,0.7"
                     AbsoluteLayout.LayoutFlags="WidthProportional,HeightProportional">
-            <Label Text="
-                   Grand Theft Auto VI (GTA VI) es el próximo título de la aclamada saga de Rockstar Games, previsto para su lanzamiento el 26 de mayo de 2026 en PlayStation 5 y Xbox Series X|S. Este juego promete redefinir el género de mundo abierto con una narrativa profunda, personajes complejos y una ciudad vibrante y expansiva.
+            <Label Text="Grand Theft Auto VI (GTA VI) es el próximo título de la aclamada saga de Rockstar Games, previsto para su lanzamiento el 26 de mayo de 2026 en PlayStation 5 y Xbox Series X|S. Este juego promete redefinir el género de mundo abierto con una narrativa profunda, personajes complejos y una ciudad vibrante y expansiva.
 
-                   Ambientación y Mapa
-                   GTA VI se desarrolla en el estado ficticio de Leonida, inspirado en Florida, con Vice City como su núcleo principal. La ciudad presenta una mezcla de nostalgia y modernidad, con playas soleadas, rascacielos brillantes y una vida nocturna activa. Además, el mapa incluye áreas como Grassrivers, Leonida Keys, Ambrosia, Mount Kalaga National Park y Port Gellhorn, ofreciendo una variedad de entornos para explorar.
+                   Ambientación y Mapa: GTA VI se desarrolla en el estado ficticio de Leonida, inspirado en Florida, con Vice City como su núcleo principal. La ciudad presenta una mezcla de nostalgia y modernidad, con playas soleadas, rascacielos brillantes y una vida nocturna activa. Además, el mapa incluye áreas como Grassrivers, Leonida Keys, Ambrosia, Mount Kalaga National Park y Port Gellhorn, ofreciendo una variedad de entornos para explorar.
                    
-                   Personajes Principales
-                   La historia sigue a Jason Duval, un exmilitar que trabajó para narcotraficantes locales, y Lucía Caminos, la primera protagonista femenina jugable de la serie, quien fue encarcelada tras defender a su familia en Liberty City. Juntos, se ven envueltos en una conspiración estatal mientras navegan por el inframundo criminal de Vice City.
+                   Personajes Principales: La historia sigue a Jason Duval, un exmilitar que trabajó para narcotraficantes locales, y Lucía Caminos, la primera protagonista femenina jugable de la serie, quien fue encarcelada tras defender a su familia en Liberty City. Juntos, se ven envueltos en una conspiración estatal mientras navegan por el inframundo criminal de Vice City.
 
-                   Jugabilidad y Características
-                   El juego promete una jugabilidad inmersiva con mecánicas de vida real, actividades recreativas y una narrativa ramificada. Se especula sobre la inclusión de un sistema de combustible para los vehículos, lo que añadiría un nivel de realismo y estrategia al juego. Además, el segundo tráiler mostró escenas que combinan cinemáticas y gameplay en tiempo real, destacando la calidad gráfica y la fluidez de la acción." 
+                   Jugabilidad y Características: El juego promete una jugabilidad inmersiva con mecánicas de vida real, actividades recreativas y una narrativa ramificada. Se especula sobre la inclusión de un sistema de combustible para los vehículos, lo que añadiría un nivel de realismo y estrategia al juego. Además, el segundo tráiler mostró escenas que combinan cinemáticas y gameplay en tiempo real, destacando la calidad gráfica y la fluidez de la acción." 
                     
                     FontSize="18"
                     Padding="20,20,20,80"
