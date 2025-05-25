@@ -6,4 +6,9 @@ public partial class FlexLayout1 : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void BtnAbsolteLayout_Clicked(object sender, EventArgs e)
+    {
+		Navigation.PushAsync(new AbsoluteLayout1());
+    }
 }

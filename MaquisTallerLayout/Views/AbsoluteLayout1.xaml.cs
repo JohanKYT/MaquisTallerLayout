@@ -6,4 +6,9 @@ public partial class AbsoluteLayout1 : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void BtnIrAlInicio_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PopToRootAsync();
+    }
 }

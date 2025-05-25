@@ -23,9 +23,12 @@
             <Button Text="Botón 3" Grid.Column="2" HorizontalOptions="Fill" />
         </Grid>
 
-        <Button Text="Botón Inferior"
+        <Button 
+                x:Name="BtnAbsolteLayout"
+                Text="Ir al Absolete Layout"
                 WidthRequest="200"
-                HorizontalOptions="Center" />
+                HorizontalOptions="Center"
+                Clicked="BtnAbsolteLayout_Clicked"/>
 
     </FlexLayout>
 

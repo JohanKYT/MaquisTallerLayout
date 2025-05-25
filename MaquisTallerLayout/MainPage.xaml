@@ -33,7 +33,7 @@
 
             <Button
                 x:Name="BtnIrAGrid1"
-                Text="Ir a demo" 
+                Text="Ir a Grid Layout" 
                 Clicked="BtnIrAGrid1_Clicked"
                 HorizontalOptions="Fill" />
         </VerticalStackLayout>
