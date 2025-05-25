@@ -1,3 +1,36 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MaquisTallerLayout.Views.FlexLayout1"
+             Title="Botones Expandidos">
+
+    <FlexLayout Direction="Column"
+                AlignItems="Center"
+                JustifyContent="Start"
+                Padding="20"
+                HorizontalOptions="Fill"
+                VerticalOptions="Fill">
+
+        <!-- Grid con 3 columnas que ocupan todo el ancho -->
+        <Grid HorizontalOptions="Fill" Margin="0,0,0,20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="Botón 1" Grid.Column="0" HorizontalOptions="Fill" />
+            <Button Text="Botón 2" Grid.Column="1" HorizontalOptions="Fill" />
+            <Button Text="Botón 3" Grid.Column="2" HorizontalOptions="Fill" />
+        </Grid>
+
+        <!-- Botón inferior centrado -->
+        <Button Text="Botón Inferior"
+                WidthRequest="200"
+                HorizontalOptions="Center" />
+
+    </FlexLayout>
+
+</ContentPage>
 
 
