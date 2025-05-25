@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MaquisTallerLayout.Views.Grid1"
-             Title="Basic Grid">
+             Title="GridLayout">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="2*" />
