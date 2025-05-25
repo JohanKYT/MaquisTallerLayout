@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MaquisTallerLayout.Views.StackLayout1"
+             Title="Vertical StackLayout ">
+    <StackLayout Margin="20" Spacing="25"  
+                 HorizontalOptions="Center">
+        <Label Text="Kevin"
+               FontSize="50"/>
+        <Label Text="Maquis"
+               FontSize="25"/>
+        <Label Text="Hola Mundo"
+               FontSize="15"/>
+        <Button Text="Ir a Flex Layout" 
+                x:Name="BtnIrAFlex"
+                Clicked="BtnIrAFlex_Clicked"
+                HorizontalOptions="Fill" />
+    </StackLayout>
+</ContentPage>

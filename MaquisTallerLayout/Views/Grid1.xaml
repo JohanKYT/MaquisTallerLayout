@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MaquisTallerLayout.Views.Grid1"
+             Title="Basic Grid">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <BoxView Color="Aquamarine" />
+        <Label Text="Row 0, Column 0"
+               TextColor="Black"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+        <BoxView Grid.Column="1"
+                 Color="Silver" />
+        <Label Grid.Column="1"
+               TextColor="Black"
+               Text="Row 0, Column 1"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+        <BoxView Grid.Row="1"
+                 Color="Gold" />
+        <Label Grid.Row="1"
+               TextColor="Black"
+               Text="Row 1, Column 0"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+        <BoxView Grid.Row="1"
+                 Grid.Column="1"
+                 Color="LightSalmon" />
+        <Button Grid.Row="1"
+                Grid.Column="1"
+               x:Name="IrAStack"
+               Text="Ir a Stack"
+               Clicked="IrAStack_Clicked" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Center"
+                />
+    </Grid>
+</ContentPage>
